@@ -1,0 +1,666 @@
+
+
+
+/*section-1*/
+.jumbotron {
+  background-color:rgb(248,244,255);
+  color: black;
+  width: 100vw;
+  height: 800px;
+}
+
+
+.thumbnail img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+.jumbotron .Section-01-box{
+display:flex;
+justify-content:space between;
+margin-top:5%;
+}
+
+
+/*Section-02-make App/Web-faster*/
+#Section-01-container{
+ font-family: Arial, sans-serif;
+}
+
+
+.Section-02-box{
+background-color: rgb(248,244,255);
+width: 100vw;
+height: 85vh;
+display:flex;
+justify-content:space-between;
+}
+.Section-02-box .Section-02-txt{
+background-color:rgb(248,244,255);
+width:45vw;
+}
+.Section-02-box .Section-02-img{
+background-color:rgb(248,244,255);
+display:grid;
+grid-template-columns: auto auto;
+width:55vw;
+margin-left:5%;
+margin-right:5%;
+}
+.Section-02-box .Section-02-img .img-box{
+background-color:white;
+border: 1px solid rgba(93, 72, 224, 1);
+height:62%;
+width:50%;
+border-radius:4%;
+padding: 20px;
+font-size:0.7vw;
+margin:3vw;
+transform: rotate(-15deg);
+}
+
+.Section-02-box .Section-02-img .img-box h6{
+font-size:1vw;
+}
+.Section-02-box .Section-02-img .img-box p{
+font-size:0.7vw;
+}
+
+
+.Section-02-box .Section-02-img .col-1{
+height: 80vh;
+}
+.Section-02-box .Section-02-txt h2{
+font-size:2vw;
+padding:1vw;
+margin-top:20%;
+margin-left:30%;
+}
+.Section-02-box .Section-02-txt .p1{
+font-size:1vw;
+padding:1vw;
+margin-left:30%;
+
+}
+.Section-02-box .Section-02-txt .p2{
+font-size:1vw;
+padding-left:1vw;
+margin-left:30%;
+
+}
+
+/*Section-03-Comparison*/
+#Section-03-Comparison{
+ font-family: Arial, sans-serif;
+}
+.Section-03-box{
+width:100vw;
+height:100vh;
+background-color: rgb(248,244,255);
+margin-top:0vh;
+}
+.Section-03-box .Section-03-div-1{
+background-color: rgb(248,244,255);
+width:100vw;
+height:20%;
+text-align:center;
+padding:2%;
+}
+.Section-03-box .Section-03-div-1 h3{
+font-size:2vw;
+}
+.Section-03-box .Section-03-div-1 p{
+font-size:1.2vw;
+}
+
+.Section-03-box .Section-03-div-2{
+background-color: rgb(248,244,255);
+width:50vw;
+height:45%;
+margin-top:3%;
+margin-left:25%;
+
+}
+
+.Section-03-box .Section-03-div-2 table{
+border-collapse: collapse;
+width: 100%;
+border: 0.1vw solid black;
+margin-left:5%;
+margin-right:5%;
+width:90%;
+height:80%;
+font-size:1vw;
+}
+.Section-03-box .Section-03-div-2 tr{
+margin-top:20%;
+border: 0.1vw solid black;
+
+}
+.Section-03-box .Section-03-div-2 th{
+border: 0.1vw solid black;
+}
+.Section-03-box .Section-03-div-2 td{
+border: 0.1vw solid black;
+padding-left:2vw;
+
+}
+.Section-03-box .Section-03-div-2 .th-1{
+background-color:rgba(93, 72, 224, 1);
+height:5vh;
+margin-top:2%;
+font-size:1vw;
+color:white;
+text-align:center;
+}
+
+
+.Section-03-box .Section-03-div-3{
+background-color: rgb(248,244,255);
+width:60vw;
+height:25%;
+margin-left:20%;
+padding:1%
+}
+.Section-03-box .Section-03-div-3 p{
+font-size:0.9vw;
+}
+
+/*Section-04 our services */
+#services{
+    margin-top: 2vw;
+    display: flex;
+    margin-left:15vw;
+    margin-right:15vw;
+    justify-content: space-around;
+
+}
+#services .box{
+    border: 1px solid rgb(123, 104, 238);
+    padding: 1%;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+    width:30%;
+    height:1%;
+    background-color:white;
+}
+
+#services .box img{
+   height: 1%;
+   width:35%;
+   display: block;
+}
+#services :hover {
+    background-color: rgb(118, 95, 247);
+    color:white;
+}
+#services .box p{
+    font-family: Arial, sans-serif;
+    padding:5%;
+    font-size:0.8vw;
+}
+#services .box h2{
+font-family: Arial, sans-serif;
+ padding-top:20px;
+ font-size:1.5vw;
+
+}
+
+ .h-primary{
+    font-family: Arial, sans-serif;
+    font-size: 2.5vw;
+    padding-top:2vw;
+    padding-bottom:1.5vw;
+    text-align:center;
+    margin:0;
+}
+.h-primary-2{
+text-align:center;
+font-size: 0.8vw;
+font-family: Arial, sans-serif;
+
+}
+/*Section-05-portfolio*/
+#Section-05-portfolio{
+font-family: Arial, sans-serif;
+}
+#carouselCaptions .carousel-indicators{
+bottom:10%;
+margin-right:72%;
+}
+#carouselCaptions .carousel-indicators button{
+border-radius: 90%;
+width: 0.6vw;
+height: 0.6vw;
+}
+#carouselCaptions .carousel-inner .carousel-control-prev{
+margin-left:2%;
+}
+#carouselCaptions .carousel-inner .carousel-control-next{
+margin-right:2%;
+}
+
+.Section-05-portfolio .Section-05-h-primary-1{
+text-align:center;
+font-family: Arial, sans-serif;
+color:white;
+padding-top:1.5vw;
+font-size:2.5vw;
+}
+
+.Section-05-portfolio .Section-05-h-primary-2{
+text-align:center;
+font-family: Arial, sans-serif;
+color:white;
+font-size:1vw;
+}
+.Section-05-portfolio{
+height:30%;
+width:100vw;
+margin-top:5vw;
+background-color:rgba(5, 0, 66, 1);
+}
+
+.Section-05-portfolio .Section-05-box{
+display:flex;
+justify-content:space-between;
+background-color:rgba(5, 0, 66, 1);
+width:100%;
+height:100%
+}
+.Section-05-portfolio .Section-05-box .txt{
+height:60%;
+width:30%;
+margin-left:20%;
+margin-top:4%;
+background-color:rgba(5, 0, 66, 1);
+color:white;
+}
+.Section-05-portfolio .Section-05-box img{
+height:90%;
+width:60%;
+margin-left:6%;
+margin-top:3%;
+}
+.Section-05-portfolio .Section-05-box .txt h4{
+font-size:1.5vw;
+}
+.Section-05-portfolio .Section-05-box .txt h1{
+font-size:2vw;
+}
+.Section-05-portfolio .Section-05-box .txt h3{
+font-size:1.5vw;
+}
+.Section-05-portfolio .Section-05-box .txt p{
+font-size:0.9vw;}
+.Section-05-portfolio .Section-05-box .txt a{
+font-size:0.9vw;
+}
+
+/*Section-06 */
+#Section-06{
+font-family: Arial, sans-serif;
+}
+.Section-06-box{
+width:100vw;
+height:100%;
+display:flex;
+justify-content:space-evenly;
+margin-left:5%;
+margin-right:5%;
+margin-top:3%;
+}
+.Section-06-box .Section-06-img img{
+width: 30vw;
+height: 30vw;
+ margin-left:5%;
+}
+.Section-06-box .Section-06-txt{
+width: 25%;
+height: 45%;
+margin-right:16%;
+margin-top:2.5%;
+}
+.Section-06-box .Section-06-txt .card-title{
+font-size:2vw;
+}
+.Section-06-box .Section-06-txt .card-text{
+font-size:0.8vw;
+}
+.Section-06-box .Section-06-txt .card-text-small{
+font-size:0.8vw;
+}
+
+
+/*Section-07-Meet-team*/
+#Section-07-Meet-team{
+font-family: Arial, sans-serif;
+}
+
+.Section-07-team-box{
+background-color:rgba(93, 72, 224, 1);
+width:80vw;
+height:100%;
+margin-left:10%;
+margin-right:10%;
+margin-top:2%;
+margin-bottom:1%;
+border-radius:20px;
+}
+.Section-07-team-box .vector-1{
+width:10%;
+height:10%;
+}
+.Section-07-team-box .vector-2{
+width:10%;
+height:10%;
+margin-left:90%;
+}
+.Section-07-team-box .Section-07-h-primary{
+text-align:center;
+font-family: Arial, sans-serif;
+color:white;
+font-size:2.2vw;
+}
+.Section-07-team-box .Section-07-h-primary-2{
+text-align:center;
+font-family: Arial, sans-serif;
+color:white;
+font-size:0.8vw;
+}
+
+.Section-07-team-box .row{
+display:flex;
+justify-content:space-between;
+margin-left:2%;
+margin-right:2%;
+text-align:center;
+}
+
+.Section-07-team-box .row .col img{
+width:80%;
+height:65%;
+}
+.Section-07-team-box  .row .col h3{
+color:white;
+font-size:1.2vw;
+padding-top:4%;
+}
+.Section-07-team-box  .row .col p{
+color:white;
+font-size:0.8vw;
+}
+
+
+/*section-08-Reviews*/
+Section-08-Reviews{
+font-family: Arial, sans-serif;
+}
+
+.Section-08-Reviews {
+  display:flex;
+  justify-content:space-between;
+  background-color:white;
+  padding: 2%;
+  width:100vw;
+  height:100%;
+ margin-bottom:3%;
+}
+
+.Section-08-h-primary{
+text-align:center;
+padding-top:5%;
+padding-bottom:0.5%;
+font-size:2.2vw;
+}
+.Section-08-h-primary-2{
+text-align:center;
+padding-bottom:3%;
+font-size:0.8vw;
+}
+.Section-08-Reviews .Section-08-image{
+margin-right:23%;
+}
+.Section-08-Reviews .Section-08-image img{
+  width: 20vw;
+  height: 19vw;
+  padding-left:1%;
+}
+.Section-08-Reviews .Section-08-grid-txt{
+width:32%;
+height:80%;
+margin-left:22%;
+}
+.Section-08-Reviews .Section-08-grid-txt .Section-08-h-secondary{
+ margin-left:3%;
+ font-size:1.7vw;
+ color:black;
+ font-family: Arial, sans-serif;
+ padding:1%;
+}
+.Section-08-Reviews .Section-08-grid-txt .center-1{
+  margin-left:3%;
+ font-size:0.8vw;
+ color:black;
+ padding:1%;
+}
+.Section-08-Reviews .Section-08-grid-txt .center-2{
+ margin-left:3%;
+ font-size:1vw;
+ color:blue;
+
+}
+.Section-08-Reviews .Section-08-grid-txt .Section-08-h-secondary .checked {
+  color: orange;
+  margin-top:1%;
+  font-size:1vw;
+
+}
+
+
+/*section-9 blog*/
+
+.Section-09-Blog-container{
+font-family: Arial, sans-serif;
+}
+.Section-09-Blog-container h2{
+font-size:2vw;
+text-align:center;
+}
+.Section-09-Blog-container h3{
+font-size:0.8vw;
+text-align:center;
+}
+
+.Section-09-Blog-container .grid{
+  display:flex;
+  justify-content: space-between;
+  width:80vw;
+  height:100%;
+  margin-left:10%;
+  margin-right:10%;
+
+}
+
+.Section-09-Blog-container .grid .col img{
+margin-left:15%;
+margin-right:15%;
+margin-top:2%;
+width:19vw;
+height:16vw;
+padding-top: 5%;
+}
+.Section-09-Blog-container .grid .col .body{
+margin-left:15%;
+margin-right:15%;
+width:19vw;
+height:16vw;
+padding-top:5%;
+}
+.Section-09-Blog-container .grid .col .body .title{
+font-size:1.2vw;
+}
+.Section-09-Blog-container .grid .col .body .text{
+font-size:0.8vw;
+}
+
+.Section-09-Blog-container .grid .col .body .card-text-small{
+font-size:0.8vw;
+}
+
+
+/*section-10-footer*/
+/**footer 1st part*/
+footer .footer-box{
+font-family: Arial, sans-serif;
+margin-top:2vmax;
+width:100vw;
+height:70vh;
+}
+footer .footer-box .upper-footer-box{
+display:flex;
+justify-content:space-between;
+background-color:#6A5ACD;
+border-radius:20px;
+height:20%;
+width:40%;
+padding:2%;
+z-index:1;
+position:absolute;
+margin-left:30vw;
+margin-right:30vw;
+margin-top:2%;
+}
+footer .footer-box .upper-footer-box .footer-txt{
+  margin-left: 5%;
+  color:white;
+}
+footer .footer-box .upper-footer-box .footer-txt h2{
+font-size:1.5vw;
+}
+footer .footer-box .upper-footer-box .footer-button{
+margin-right:5%;
+}
+footer .footer-box .upper-footer-box .footer-button button{
+margin-top: 3%;
+font-size:1.5vw;
+background-color:white;
+color:#6A5ACD
+}
+
+/*footer 2nd part*/
+footer .footer-box .lower-footer-box{
+background-color:rgba(5, 0, 66, 1);
+width:100vw;
+color:white;
+position:absolute;
+margin-top:8vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-1{
+height:100%;
+width:100%;
+display:flex;
+justify-content:space-between;
+padding-top:10%;
+}
+.footer-box .lower-footer-box .lower-footer-box-1 .part-1{
+margin-left:5%;
+font-size:1vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-1 .part-5{
+margin-right:5%
+}
+.footer-box .lower-footer-box .lower-footer-box-1 .part-2  a{
+list-style: none;
+text-decoration:none;
+color:white;
+padding:5%;
+font-size:1vw;
+}
+
+.footer-box .lower-footer-box .lower-footer-box-1 .part-3  a{
+list-style: none;
+text-decoration:none;
+color:white;
+font-size:1vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-1 .part-4  a{
+list-style: none;
+text-decoration:none;
+color:white;
+font-size:1vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-1 .part-5  a{
+list-style: none;
+text-decoration:none;
+color:white;
+font-size:1vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-2  a{
+font-size:1.5vw;
+
+}
+.footer-box .lower-footer-box .lower-footer-box-4 p{
+text-align:center;
+font-size:1vw;
+}
+.footer-box .lower-footer-box .lower-footer-box-2{
+height:100%;
+width:87%;
+display:flex;
+justify-content:space-between;
+margin-left:7%;
+margin-right:7%;
+font-size:1.5vmax;
+padding-top:1%;
+}
+.footer-box .lower-footer-box .lower-footer-box-2 a{
+text-decoration:none;
+color:white;
+}
+.footer-box .lower-footer-box .lower-footer-box-3 hr{
+width:90%;
+margin-left:5%;
+margin-right:5%;
+background-color:white;
+}
+
+
+
+ /* css media */
+@media(max-width: 600px){
+
+.jumbotron {
+height:400px;
+}
+#services .box{
+border-radius:5px;
+}
+.Section-02-box .Section-02-img .img-box{
+height:47%;
+width:75%;}
+.Section-05-portfolio .Section-05-box{
+flex-wrap:wrap;
+margin-left:15%;
+}
+footer .footer-box .upper-footer-box{
+margin-bottom:20%;
+}
+footer .footer-box{
+height:90vh;
+background-color:white;
+}
+
+footer .footer-box .upper-footer-box{
+height:11%;
+border-radius:10px;
+}
+.footer-box .upper-footer-box .footer-txt h2{
+font-size:2.5vw;
+}
+footer .footer-box .upper-footer-box{
+height:10%;
+margin-bottom:20%;
+}
+}
